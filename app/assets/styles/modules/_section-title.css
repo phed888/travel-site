@@ -15,11 +15,16 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: .6rem;
-    @mixin atMedium {
+    @mixin atSmall {
+      position: relative;
+      top: 8px;
       margin-right: .5rem;
       margin-bottom: 0;
       display: inline-block;
       margin-left: 0;
     }
+  }
+  &--blue {
+    color: $mainBlue;
   }
 }
